@@ -1,3 +1,45 @@
 body {
     background-color: rgba(0, 0, 0, 0.603);
 }
+
+header h1 {
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #ffffff, #61616118);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.expl-txt {
+    font-size: 30px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #ffffff, #61616118);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.box-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.complete {
+    width: 320px;
+    padding: 24px;
+    border: 2px solid #ffffff;
+    margin-bottom: 24px;
+}
+
+.inprog {
+    width: 320px;
+    padding: 24px;
+    border: 2px solid #ffffff;
+    margin-bottom: 24px;
+}
